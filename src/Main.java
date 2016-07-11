@@ -9,7 +9,7 @@ public class Main {
 		
 		math.setCoreClass(true);
 		
-		Student kevin = new Student();
+		Student kevin = new Student("Kevin", "Wayne", "Brown", 000001);
 		//System.out.println(math.getName());
 		
 		kevin.enroll(math);
@@ -19,6 +19,8 @@ public class Main {
 		
 		kevin.setClassFailed(math);
 		kevin.setClassPassed(music);
+		
+		System.out.println(kevin.toString());
 
 	}
 
